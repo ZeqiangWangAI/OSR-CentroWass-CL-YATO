@@ -1,0 +1,129 @@
+# openmax_config.yaml 示例模板
+
+# 文件名称，指向包含密集向量的JSON文件路径
+file_name: /parallel_scratch/zw00924/UCL_Model/BERT2/correct_dense_outputs_step_17.json
+
+border_size: 8
+
+top_k: 4
+
+threshold: 5e-5
+
+#拟合数据点数量
+tail_percent: 0.3
+
+# 指定是否使用GPU以及GPU的ID，默认为0，若无GPU可设置为-1以使用CPU
+gpu: 0
+
+label:
+  Administration:
+  - Administration
+  Child development:
+  - Child development
+  - Infant feeding
+  - Language and vocabulary
+  - Developmental milestones
+  - Parenting
+  Demographics:
+  - Place of birth
+  - Gender
+  - Location
+  - Demographics
+  - Age
+  - Language(s) spoken
+  - Ethnic group
+  Education:
+  - Cognitive skills
+  - Further education | Higher education
+  - Education aspirations
+  - Training
+  - Learning difficulties
+  - Basic skills
+  - Qualifications
+  - Adult education
+  - Non cognitive skills
+  - Primary schooling
+  - Pre-school
+  - Education
+  Employment and income:
+  - Occupation | Employment
+  - Pensions
+  - Assets
+  - Income
+  - Finances
+  - Social classification
+  - Benefits | Welfare
+  - Consumption | Expenditure
+  - Employment and income
+  Expectations, attitudes and beliefs:
+  - Social attitudes
+  - Politics
+  - Expectations, attitudes and beliefs
+  Family and social networks:
+  - Technology
+  - Leisure activities
+  - Child welfare
+  - Family members and relations
+  - Social support
+  - Family and social networks
+  - Childcare
+  - Home life
+  - Friends
+  - Marital status
+  - Household composition
+  Health behaviour:
+  - Substance abuse
+  - Criminal behaviour
+  - Diet and nutrition
+  - Alcohol consumption
+  - Physical activity
+  - Health behaviour
+  Health care:
+  - Health services utilisation
+  - Health care
+  - Health insurance
+  - Immunisations
+  - Complementary therapies
+  - Hospital admissions
+  - Medications
+  Housing and local environment:
+  - Environmental exposure
+  - Neighbourhood
+  - Housing and local environment
+  - Travel and transport
+  - Housing
+  Life events:
+  - Life events
+  Mental health and mental processes:
+  - Wellbeing
+  - Mental disorders
+  - Personality | Temperament
+  - Cognitive function
+  - Mental health and mental processes
+  - Emotions
+  Physical health:
+  - Musculoskeletal system
+  - Infections
+  - Mortality
+  - Cancer
+  - Cardiovascular system
+  - Endocrine system
+  - Physical health
+  - Women's health
+  - General health
+  - Physical functioning
+  - Digestive system
+  - Physical characteristics
+  - Urogenital system
+  - Oral/dental health
+  - Allergies
+  - Hemic and immune systems
+  - Congenital malformations
+  - Anthropometry
+  - Hearing, vision, speech
+  - Accidents and injuries
+  - Nervous system
+  Pregnancy:
+  - Childbirth
+  - Infant mortality
+  - Pregnancy
